@@ -21,7 +21,7 @@ function updateClock() {
         hour.innerText = h
     minutes.innerText = m
     seconds.innerText = s
-    ampm, (innerText = ext)
+    ampm.innerText = ext
 
     setTimeout(() => {
         updateClock()
